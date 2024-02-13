@@ -1,0 +1,37 @@
+@media screen {
+    /* Add as many tabs as required */
+    /* For more information on tabbed and alternate syle, see the source docs: https://facelessuser.github.io/pymdown-extensions/extensions/tabbed/ */
+    .md-typeset .tabbed-set input:nth-child(1):checked ~ .tabbed-labels > :nth-child(1),
+    .md-typeset .tabbed-set input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2),
+    .md-typeset .tabbed-set input:nth-child(3):checked ~ .tabbed-labels > :nth-child(3),
+    .md-typeset .tabbed-set input:nth-child(4):checked ~ .tabbed-labels > :nth-child(4),
+    .md-typeset .tabbed-set input:nth-child(5):checked ~ .tabbed-labels > :nth-child(5) {
+      /* Example of Gradient border: uses 'image' rather than color */
+      border-image: linear-gradient(to right, #f71940, #ff9160);
+      border-image-slice: 1;
+      opacity: 1;
+    }
+  }
+  
+  .md-typeset .tabbed-set {
+    background-color: white;
+  }
+  
+  .md-typeset .tabbed-labels {
+    background-color: white;
+  }
+  
+  .md-typeset .tabbed-labels > label {
+    font-size: .85rem;
+    color: #757575;
+  }
+  
+  .md-typeset .tabbed-labels > label:hover {
+    color: black;
+    background-color: #e6e6e6;
+  }
+  
+  .md-typeset .task-list-indicator:before {
+    background-color: #eee;
+  }
+  

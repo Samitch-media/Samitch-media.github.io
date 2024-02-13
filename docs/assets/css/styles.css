@@ -1,0 +1,15 @@
+.md-header__topic {
+    color: transparent;
+}
+
+.md-nav__title {
+    color: transparent;
+}
+
+.md-nav {
+    margin-bottom: 0;
+}
+
+.md-tabs__list {
+    justify-content: right;
+}
