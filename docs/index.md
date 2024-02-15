@@ -6,11 +6,11 @@ hide:
   - header
 ---
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./parallax_webpage.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/parallax.css">
 </head>
 <body>
 
@@ -56,4 +56,4 @@ hide:
 <!-- </div> -->
 
 </body>
-</html>
+</html> -->
