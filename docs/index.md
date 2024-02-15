@@ -6,47 +6,54 @@ hide:
   - header
 ---
 
-# Welcome to MkDocs
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./parallax_webpage.css">
+</head>
+<body>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## Ideas
-
-* Make logo bigger
-* Bring nav more inward
-
-* product-focused
-* customer first
-* Driving complete enterprise perspective - engineering principals
-* Everything as code
-* Titles
-	* Cloud engineer
-	* Solution Architect
-	* Product Owner
-	* Software Engineer
-	* Site Reliability Engineer
-	* User Experience
-* Fail fast
-
-
-Mitch Jenkins a.k.a.
+<nav class="navigation">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="active"><a href="#about">About</a></li>
+    </ul>
+</nav>
+<div class="parallax" style="background-image: url('./images/logo/SamitchLogo.jpg');">
+    <div class="panel panel-image">
+        <span>
+        <h3> TITLE</h3>
+        <p>Type a paragraph here to test what this will look like.</p>
+        <button>More Info</button>
+        </span>
+    </div>
+</div>
+<!-- <div class="navigation navigation-mid"></div> -->
+<div class="section">
+    <div class="panel panel-section">
+        <span>
+        <h3> TITLE 2</h3>
+        <p>Type a paragraph here to test what this will look like.</p>
+        <button>More Info</button>
+        </span>
+    </div>
+</div>
 
 
-aws azure network
+<div class="parallax" style="background-image: url('./images/logo/SamitchLogo.jpg');"></div>
+    <div class="section">
+    <div class="panel">
+        <span>
+        <h3> TITLE 3</h3>
+        <p>Type a paragraph here to test what this will look like.</p>
+        <button>More Info</button>
+        </span>
+    </div>
+    </div>
+<!-- </div> -->
 
-Skills
-- Terraform
+</body>
+</html>
