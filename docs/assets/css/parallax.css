@@ -85,7 +85,7 @@ body, html {
     /* width: 40%; */
     /* width: 100%; */
     top: -30%;
-    /* left: 15%; */
+    /* left: 5%; */
     /* margin: 30%; */
     display: flex;
     align-items: center; /* Vertical center alignment */
@@ -97,12 +97,15 @@ body, html {
 .panel-image {
     /* position: relative; */
     /* margin: 30%; */
-    width: 40%;
+    width: 45%;
     height: 30%;
     top: 30%;
-    background-color: rgba(51, 51, 51, 40%);
+    /* margin: 30%; */
+    /* left: 5%; */
+    background-color: rgba(51, 51, 51, 70%);
     border-radius: 15px;
     color: #ffffff;
+    justify-content: left;
 }
 
 .panel-section {
@@ -112,14 +115,28 @@ body, html {
     position: relative;
 }
 
+.panel-image > span {
+  margin-right: 5%;
+  padding-left: 5%;
+  text-align: left;
+}
+
+.panel-section > span {
+    text-align: center;
+}
+
 .panel h3 {
   /* padding-bottom:0%; */
-  text-align: center;
-  font-size: 32px;
+  /* text-align: center; */
+  /* font-size: 32px; */
+}
+
+.panel strong {
+    color: #38B000;
 }
 
 .panel p {  
-  text-align: center;
+  /* text-align: center; */
   line-height: 25px;
   /* padding: 0px 50px; */
 }
@@ -143,6 +160,18 @@ body, html {
 
 .panel button:hover {
     background-color: #555555;
+    color: white;
+}
+
+.img-source {
+    display: flex;
+    align-self: flex-end;
+    /* justify-self: flex-end; */
+    /* align-items:flex-end; */
+    /* justify-content: right; */
+    /* margin-top: 70%; */
+    margin-left: auto;
+    padding-right: 10px;
     color: white;
 }
 
