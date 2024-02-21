@@ -76,6 +76,7 @@ body, html {
 }
 
 .panel {
+    margin: 25px 0;
     position: absolute;
     background-color: rgba(255, 255, 255, 15%);
     color: #333333;
@@ -97,8 +98,10 @@ body, html {
 .panel-image {
     /* position: relative; */
     /* margin: 30%; */
-    width: 45%;
-    height: 30%;
+    /* width: 45%;
+    height: 30%; */
+    width: 900px;
+    height: 350px;
     top: 30%;
     /* margin: 30%; */
     /* left: 5%; */
@@ -116,9 +119,16 @@ body, html {
 }
 
 .panel-image > span {
+    /* TODO: Fix spacing, changed this to flex to be more responsive */
+  display: flex;
+  flex-direction: column;
   margin-right: 5%;
   padding-left: 5%;
   text-align: left;
+}
+
+.panel-image p {
+    font-size: x-large;
 }
 
 .panel-section > span {
@@ -127,11 +137,7 @@ body, html {
 
 .panel h1 {
     font-size: 3rem;
-}
-.panel h3 {
-  /* padding-bottom:0%; */
-  /* text-align: center; */
-  /* font-size: 32px; */
+    margin-bottom: 0;
 }
 
 .samitch {
@@ -153,12 +159,16 @@ body, html {
     color: #EB0A1E;
 }
 
-.panel p {  
+.panel-section p {  
   text-align: justify;
   line-height: 25px;
   font-size: x-large;
   /* font-weight: 100; */
   /* padding: 0px 50px; */
+}
+
+p span {
+    display: block;
 }
 
 .panel button {
