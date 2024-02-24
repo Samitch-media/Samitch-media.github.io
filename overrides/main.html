@@ -24,6 +24,7 @@
 
 <body>
     <nav class="navigation">
+        <!-- TODO: Move menu to center; also responsive -->
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -31,20 +32,30 @@
             <li class="active"><a href="#projects">Projects</a></li>
         </ul>
     </nav>
-    <section class="parallax">
+    <section class="parallax" id="home">
         <div class="panel panel-image">
             <span>
                 <h1>Mitch Jenkins <small>aka</small> <span class="samitch">Samitch</span></h1>
                 <h2>Principal Software Engineer at <span class="toyota-red">Toyota Motor North America</span></h2>
                 <p>I solve complex problems with a <strong>customer-first</strong> mindset, resourcefulness,
                     and a broad perspective of software engineering best practices.</p>
+                <ul>
+                    <li>TODO: Social Media links</li>
+                </ul>
             </span>
         </div>
         <div class="img-source">Image generated with AI</div>
     </section>
-    <!-- <div class="navigation navigation-mid"> TODO: Fix sticky menu -->
+    <!-- <nav class="navigation navigation-mid">
+        <ul id="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li class="active"><a href="#projects">Projects</a></li>
+        </ul>
+    </nav> -->
     <section class="section">
-        <div class="panel panel-section">
+        <div class="panel panel-section" id="about">
             <span>
                 <h2>About</h2>
                 <p>
@@ -81,35 +92,139 @@
                     </span><br>
                     <span>
                         I have a wide range of interests and skills, but I'm eager to learn and deepen my expertise.
-                        Pushing my limits excites me, and I look forward to continuous growth
+                        Pushing my limits excites me, and I look forward to continuous growth.
                     </span>
                 </p>
             </span>
         </div>
     </section>
 
-
-    <div class="parallax" style="background-image: url('../images/abstract-curves.jfif');"></div>
+    <div class="parallax"></div>
     <section class="section">
-        <div class="panel">
+        <div class="panel" id="experience">
             <span>
                 <h2>Experience</h2>
-                <p>Provide a resume of experience.</p>
+                <ol class="resume">
+                    <li>
+                        <div>SEP 2022 - Present</div>
+                        <div>
+                            <h3>Principal Software Engineer I · Toyota Motor North America</h3>
+                            <h4>Cloud & DevEx | Digital Platform Engineering & Architecture</h4>
+                            <p>Stepping into my new role has been a continuation of how I had been operating previously;
+                                however, I have noticed an increase in confidence and ability to stand alone when
+                                providing guidance across the organization. I have increased the breadth of area which I
+                                cover.</p>
+                        </div>
+                        <ul class="tags">
+                            <li class="certification">Datadog Certified: Datadog Fundamentals</li>
+                            <li class="technology">Terraform</li>
+                            <li class="technology">Python</li>
+                            <li class="technology">Markdown</li>
+                            <li class="technology">HTML</li>
+                            <li class="technology">CSS</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>APR 2021 - SEP 2022</div>
+                        <div>
+                            <h3>Senior Software Engineer · Toyota Motor North America</h3>
+                            <h4>Cloud & DevEx | Digital Platform Engineering & Architecture</h4>
+                            <p>Description of my experience</p>
+                            <ul class="tags">
+                                <li></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div>DEC 2019 - APR 2021</div>
+                        <div>
+                            <h3>Cloud & Automation Analyst · Toyota Motor North America</h3>
+                            <h4>Cloud & DevEx | Digital Platform Engineering & Architecture</h4>
+                            <p>Description of my experience</p>
+                            <ul class="tags">
+                                <li class="technology">Terraform</li>
+                                <li class="certification">AWS Certified Cloud Practicioner</li>
+                                <li class="certification">AWS Certified Solutions Architect - Associate</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div>APR 2019 - DEC 2019</div>
+                        <div>
+                            <h3>Application Analyst · Toyota Motor North America</h3>
+                            <h4>NA Warranty | After Sales</h4>
+                            <ul class="tags">
+                                <li class="skill">Scrum Master</li>
+                                <li class="skill">Production Support</li>
+                                <li class="technology">SQL</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div>AUG 2017 - APR 2019</div>
+                        <div>
+                            <h3>Information Systems Trainee · Toyota Motor North America</h3>
+                            <h4>After Sales</h4>
+                            <ul class="tags">
+                                <li class="certification">Certified Scrum Master</li>
+                                <li class="skill">Agile Project Management</li>
+                                <li class="skill">Data Analytics</li>
+                                <li class="technology">Alteryx</li>
+                                <li class="technology">Microsoft Power Platform</li>
+                                <li class="technology">SQL</li>
+                                <li class="technology">HTML</li>
+                                <li class="technology">CSS</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
                 <button>More Info</button>
             </span>
         </div>
     </section>
-    <div class="parallax" style="background-image: url('../images/abstract-curves.jfif');"></div>
+    <div class="parallax"></div>
     <section class="section">
-        <div class="panel">
+        <div class="panel" id="projects">
             <span>
                 <h2>Projects</h2>
                 <p>Show examples of project work</p>
                 <button>More Info</button>
+                <ul>
+                    <!-- TODO: Video of CNCF presentation -->
+                    <li>
+                        <h3>Cloud Engineering</h3>
+                        <img>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>User Experience</h3>
+                        <img>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>Power Platform</h3>
+                        <img>
+                        <p>Description</p>
+                    </li>
+                </ul>
             </span>
         </div>
     </section>
     <!-- </div> -->
+    <!-- <script>
+        window.onscroll = function () { stickyNav() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function stickyNav() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script> -->
 </body>
 
 </html>

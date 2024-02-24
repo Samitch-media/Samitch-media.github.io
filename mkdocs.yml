@@ -8,6 +8,8 @@ site_url: https://Samitch-media.github.io/
 nav:
   - Home: index.md
   - Examples: examples.md
+  - Projects:
+    - Mangata & Gallo: projects/mangata-gallo/project.md
 
 plugins:
   - git-revision-date-localized

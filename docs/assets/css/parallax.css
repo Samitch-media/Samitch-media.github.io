@@ -4,26 +4,36 @@ body, html {
     margin: 0;
 	padding: 0;
 	border: 0;
+    scroll-behavior: smooth;
 }
 
 .navigation {
     position: fixed;
     background-color:#333333;
-    width:100%;
-    height:10%;
+    width: 100%;
+    height: 40px;
     top:0;
     z-index: 100;
 }
 
-.navigation-mid {
+/* .sticky {
     position: sticky;
-    top:0;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .panel {
+    padding-top: 60px;
+} */
+.navigation-mid {
+    /* position: sticky;
+    top:0; */
 }
 
 .navigation ul {
     list-style-type: none;
     margin: 0;
-    padding-top: 1%;
+    /* padding-top: 1%; */
     overflow: hidden;
     background-color: #333;
 }
@@ -52,7 +62,7 @@ body, html {
 
 .parallax {
     /* The image used */
-    background-image: url('../../images/abstract-curves.jfif');
+    background-image: url('../../images/abstract-curves.jpeg');
 
     /* Full height */
     height: 100%; 
@@ -93,6 +103,7 @@ body, html {
     justify-content: center; /* Horizontal center alignment */
     /* align-content: center; */
     /* z-index: 99; */
+    padding: 32px;
 }
 
 .panel-image {
@@ -214,4 +225,24 @@ p span {
     /* top:0%; */
     align-items: center; /* Vertical center alignment */
     justify-content: center; /* Horizontal center alignment */
+}
+
+.resume {
+    
+}
+
+.tags {
+
+}
+
+.certification {
+
+}
+
+.skill {
+
+}
+
+.technology {
+
 }
